@@ -49,7 +49,7 @@ class LeadType(DjangoObjectType):
 
 
 # -------------------------
-# Helper: Fetch user + hierarchy
+# Fetch user
 # -------------------------
 
 def fetch_user(user_id):
@@ -231,7 +231,7 @@ class Query(graphene.ObjectType):
 
         queryset = Lead.objects.all()
 
-        # Visibility rules (exactly preserved)
+        # Visibility rules
         if role == "CHILD_USER":
             queryset = queryset.filter(company_id=user_company_id)
 

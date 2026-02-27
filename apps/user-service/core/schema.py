@@ -25,7 +25,7 @@ class UserType(DjangoObjectType):
 
 
 # -------------------------
-# Mutations (unchanged)
+# Mutations
 # -------------------------
 
 class CreateCompany(graphene.Mutation):
@@ -75,7 +75,7 @@ class CreateUser(graphene.Mutation):
 
 
 # -------------------------
-# Queries (UPDATED)
+# Queries
 # -------------------------
 
 class Query(graphene.ObjectType):
