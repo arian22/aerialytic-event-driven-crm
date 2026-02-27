@@ -262,8 +262,6 @@ aerialytic-event-driven-crm/
 * GraphQL APIs for flexibility
 * Dockerized reproducible environment
 
----
-
 * Clean separation
 * Preserved business logic
 * Cross-service validation
