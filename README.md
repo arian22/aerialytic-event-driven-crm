@@ -17,12 +17,6 @@ This project implements an event-driven CRM system using a microservice architec
 
 ## 1. Clone the repository
 
-```
-git clone <your-repository-url>
-cd aerialytic-event-driven-crm
-```
-
----
 
 ## 2. Create your .env file
 
